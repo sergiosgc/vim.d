@@ -1,7 +1,7 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/vundle
+set rtp+=~/.vim.d/vundle
 call vundle#rc('~/.vundle')
 
 " let Vundle manage Vundle
@@ -10,7 +10,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-sensible'
 Bundle 'bling/vim-airline'
 Bundle 'altercation/vim-colors-solarized'
-"Bundle 'wombat256.vim'
+Bundle 'wombat256.vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
@@ -38,10 +38,13 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set t_Co=256
 
 try
-    colorscheme wombat256
+    colorscheme wombat256mod
     syntax on
 catch /.*/
-    unlet colors_name
+    try
+        unlet colors_name
+    catch /.*/
+    endtry
     colorscheme torte
     syntax on
 endtry
