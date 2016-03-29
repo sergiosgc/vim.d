@@ -23,7 +23,7 @@ Bundle 'hail2u/vim-css3-syntax'
 "Bundle davidhalter/jedi-vim
 Bundle 'othree/html5.vim'
 Bundle 'tpope/vim-fugitive'
-Bundle 'SirVer/ultisnips'
+"Bundle 'SirVer/ultisnips'
 Bundle 'honza/vim-snippets'
 Bundle 'rgarver/Kwbd.vim'
 Bundle 'xolox/vim-misc'
