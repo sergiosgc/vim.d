@@ -37,17 +37,6 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 set t_Co=256
 
-try
-    colorscheme wombat256mod
-    syntax on
-catch /.*/
-    try
-        unlet colors_name
-    catch /.*/
-    endtry
-    colorscheme torte
-    syntax on
-endtry
 " Always show tabline
 set showtabline=2
 " Use indentation from current line when starting a new line
@@ -152,3 +141,14 @@ let &makeprg = 'if [ -f Makefile ]; then make; else make -C ..; fi'
 let g:session_autosave = 'yes'
 let g:session_default_to_last = 1
 let g:session_autoload = 'yes'
+try
+    colorscheme wombat256mod
+    syntax on
+catch /.*/
+    try
+        unlet colors_name
+    catch /.*/
+    endtry
+    colorscheme torte
+    syntax on
+endtry
