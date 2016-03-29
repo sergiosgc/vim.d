@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/sergio/ownCloud/Projects/Personal/Software/lms/public/zeromass/plugins/com.sergiosgc.user'
+let g:netrw_dirhist_2='/home/sergio/ownCloud/Projects/Personal/Software/lms/public/zeromass/plugins/com.sergiosgc.form/Serializer/TwitterBootstrap'
+let g:netrw_dirhist_3='/home/sergio/ownCloud/Projects/Personal/Software/lms/private/github/ZeroMass-Plugins/com.sergiosgc.user'
+let g:netrw_dirhist_4='/home/sergio/ownCloud/Projects/Personal/Software/lms/private/pageTemplates'
+let g:netrw_dirhist_5='/home/sergio/ownCloud/Projects/Personal/Software/lms/public/zeromass/plugins'
+let g:netrw_dirhist_6='/home/sergio/Dropbox/Projects/Blog.com/Wordpress/wp-content/mu-plugins/blogcom-signup'
+let g:netrw_dirhist_7='/home/sergio/.config/i3status'
