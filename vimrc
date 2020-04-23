@@ -27,7 +27,6 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'honza/vim-snippets'
 Bundle 'rgarver/Kwbd.vim'
 Bundle 'xolox/vim-misc'
-Bundle 'xolox/vim-session'
 Bundle 'avakhov/vim-yaml'
 Bundle 'chase/vim-ansible-yaml'
 
